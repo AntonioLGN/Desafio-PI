@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* INICIO ESTILO HEADER */
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 80px;
+  border-bottom: solid orangered 3px;
+}
+
+.header h1 {
+  float: left;
+  color: white;
+}
+
+.header ul {
+  /* Tira as 'bolinhas' da lista */
+  list-style: none;
+  float: right;
+}
+
+.header h1,
+.header ul {
+  margin-top: 20px;
+}
+
+.header li {
+  /* coloca os elementos <li> na mesma linha como blocos */
+  display: inline-block;
+
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #444444;
+}
+
+.header ul li a {
+  /* Tira o estilo de 'link' */
+  text-decoration: none;
+  color: white;
+}
+
+.header .text-orange {
+  color: orangered;
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  background-image: url("./img/about.png");
+  background-size: cover;
+  background-position: center;
+}
+.text_content {
+  width: 80%;
+  margin: 5% auto;
+}
+.title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: bolder;
+}
+.title span {
+  color: orangered;
+}
+.subtitle {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+}
+.text {
+  margin-top: 3%;
+  display: flex;
+  justify-content: flex-start;
+}
+.myCol {
+  width: 30%;
+  margin-left: 1%;
+}
+.myCol:nth-child(1) {
+  margin-left: 0;
+}
+.myCol p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+}
+.myCol p:nth-child(1) {
+  margin-bottom: 20px;
+}
+.footer {
+  height: 100%;
+  margin-top: 40%;
+  position: relative;
+}
+.container_footer {
+  padding: 20px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #15151e;
+}
+.myRow {
+  display: flex;
+  justify-content: center;
+}
+.myCol {
+  padding: 10px;
+  width: 23%;
+  margin-right: 1%;
+}
+.myCol:nth-child(4) {
+  margin-right: 0;
+}
+
+.myCol .footer_aboutUs h5 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.myCol .footer_aboutUs p {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.footer_buttons_content {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer_buttons {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.footer_buttons:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  color: white;
+}
+.footer_key_words {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_key_words div {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 3px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.footer_key_words div:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  color: white;
+}
